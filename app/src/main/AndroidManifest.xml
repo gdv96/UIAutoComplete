@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UIAutoComplete">
         <activity
+            android:name=".AutoCompleteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
